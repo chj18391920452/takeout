@@ -1,0 +1,10 @@
+
+server:
+  port: 8381
+spring:
+  application:
+    name: message-service
+rocketmq:
+  name-server: 192.168.59.128:9876
+  producer:
+    group: order
